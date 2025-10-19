@@ -7,14 +7,11 @@ A ComfyUI custom node that extends the standard Load Image functionality with a 
 - **Enhanced Load Image Node**: All standard Load Image functionality
 - **Clipboard Integration**: Direct paste from clipboard with a single button click
 - **Conflict Prevention**: Avoids workflow pasting conflicts by specifically handling images
-- **Flexible Path Support**: Supports both relative and absolute image paths
-- **Automatic Image Processing**: Handles EXIF rotation, transparency masks, and various image formats
 
 ## Requirements
 
 - ComfyUI
 - Modern web browser with Clipboard API support (Chrome, Firefox, Safari, Edge)
-- HTTPS connection (required for Clipboard API in most browsers)
 
 ## Installation
 
@@ -76,12 +73,9 @@ The clipboard paste feature requires a modern browser with Clipboard API support
 - ✅ Safari 13.1+
 - ✅ Edge 79+
 
-**Note**: HTTPS is required for clipboard access in most browsers. If running ComfyUI locally, use `https://localhost:8188` instead of `http://localhost:8188`.
-
 ## Troubleshooting
 
 ### "Clipboard API not available" Error
-- Ensure you're using HTTPS (required for clipboard access)
 - Check if your browser supports the Clipboard API
 - Try refreshing the page
 
