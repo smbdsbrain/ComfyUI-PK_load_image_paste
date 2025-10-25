@@ -28,7 +28,7 @@ Documentation = "https://github.com/smbdsbrain/ComfyUI-PK_load_image_paste/wiki"
 "Bug Tracker" = "https://github.com/smbdsbrain/ComfyUI-PK_load_image_paste/issues"
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "smbdsbrain"
 DisplayName = "ComfyUI-PK_load_image_paste"
 Icon = ""
 includes = [] 
